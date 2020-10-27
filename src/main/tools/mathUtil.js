@@ -28,4 +28,5 @@ export default class MathUtils {
         }
         return Math.sqrt(sum);
     }
+
 }

@@ -3,12 +3,12 @@ import ColorUtils from './tools/colorUtil';
 import ObjUtils from './tools/objUtil';
 import MathUtils from './tools/MathUtil';
 
-export default class GeTool {
+export class GeTool {
     constructor() {
-        this.ArrayUtil = new ArrayUtils();
-        this.ColorUtil = new ColorUtils();
-        this.ObjUtil = new ObjUtils();
-        this.MathUtil = new MathUtils();
+        this.arrayUtil = new ArrayUtils();
+        this.colorUtil = new ColorUtils();
+        this.objUtil = new ObjUtils();
+        this.mathUtil = new MathUtils();
     }
 
     test() {
@@ -16,4 +16,5 @@ export default class GeTool {
     }
 }
 
+export const geTool = new GeTool();
 // export { ArrayUtils, TimingSpec, ChartSpec, Animation }

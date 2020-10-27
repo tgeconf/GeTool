@@ -6,6 +6,10 @@ const pkg = require('./package.json');
 let libraryName = pkg.name;
 let outputFile, outputPath, mode, entryFile;
 
+entryFile = '/src/index.js';
+outputPath = '/dist';
+outputFile = '[name].bundle.js';
+
 if (env === 'build') {
     mode = 'production';
     outputPath = '/lib';

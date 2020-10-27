@@ -1,10 +1,11 @@
 import _ from 'lodash';
 import printMe from './print.js';
-import GeTool from '../lib/index.js';
+import { geTool } from '../lib/index.js';
 
 function component() {
-    const testTgeUtil = new GeTool();
-    testTgeUtil.test();
+    // const testTgeUtil = new GeTool();
+    // testTgeUtil.test();
+    console.log(geTool.arrayUtil.randSeries(10));
 
     const element = document.createElement('div');
     const btn = document.createElement('button');

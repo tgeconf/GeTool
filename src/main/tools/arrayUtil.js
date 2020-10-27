@@ -35,6 +35,12 @@ export default class ArrayPrcs {
         return arr;
     }
 
-    
+    randSeries(count) {
+        let arr = [];
+        for (let i = 0; i < count; i++) {
+            arr[i] = i;
+        }
+        return this.shuffle(arr);
+    }
 
 }
