@@ -48,4 +48,12 @@ export default class ArrayPrcs {
         return this.shuffle(arr);
     }
 
+    /**
+     * remove repetition in the array
+     * @param {Array} arr 
+     * @return {Array}
+     */
+    removeRept(arr){
+        return [...new Set(arr)];
+    }
 }

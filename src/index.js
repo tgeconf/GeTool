@@ -5,7 +5,7 @@ import { geTool } from '../lib/index.js';
 function component() {
     // const testTgeUtil = new GeTool();
     // testTgeUtil.test();
-    console.log(geTool.arrayUtil.randSeries(10));
+    console.log(geTool.arrayUtil.removeRept([1,1,2,2,3,3,3]));
 
     const element = document.createElement('div');
     const btn = document.createElement('button');
