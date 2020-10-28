@@ -35,6 +35,11 @@ export default class ArrayPrcs {
         return arr;
     }
 
+    /**
+     * generate a series of numbers without repetition
+     * @param {number} count 
+     * @retrun {Array}
+     */
     randSeries(count) {
         let arr = [];
         for (let i = 0; i < count; i++) {
